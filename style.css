@@ -1,4 +1,37 @@
 * {
     border: solid 0.02px rgba(225, 0, 0, 0.5);
     font-family: 'Josefin Sans', sans-serif;
+    color: #010059;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.nav {
+    text-align: center;
+}
+
+
+/* 導覽列 */
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar .box {
+    margin: auto;
+}
+
+.n-box1 .logo {
+    float: inherit;
+}
+
+#n-box1-1 {
+    float: right;
 }
