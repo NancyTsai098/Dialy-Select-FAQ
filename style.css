@@ -32,6 +32,26 @@ html {
     float: inherit;
 }
 
+.n-box1 {
+    height: 100px;
+}
+
 #n-box1-1 {
     float: right;
+    margin: 0 55px 0 0;
+    display: inline-block;
+}
+
+.shopping img {
+    width: 30px;
+    height: 30px;
+}
+
+.shopping {
+    margin-right: 30px;
+}
+
+.image {
+    width: 100%;
+    height: 80px;
 }
