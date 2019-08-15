@@ -1,7 +1,7 @@
 * {
     border: solid 0.02px rgba(225, 0, 0, 0.5);
     font-family: 'Josefin Sans', sans-serif;
-    color: #010059;
+    color: #466d47;
     font-weight: 600;
     margin: 0;
     padding: 0;
@@ -10,14 +10,22 @@
 body,
 html {
     height: 100%;
-    background-color: #fff;
+    background-image:
+
 }
 
-.nav {
+.banner {
     text-align: center;
-    background-color: #33A6B8;
+    
 }
 
+.nav{
+    background-image: url(banner1.jpg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-size: cover;
+
+}
 
 /* 導覽列 */
 
@@ -30,18 +38,21 @@ html {
     margin: auto;
 }
 
-.n-box1 .logo {
-    float: inherit;
-}
+
 
 .n-box1 {
-    height: 100px;
+    height: 200px;
+    text-align: center;
+    position: relative;
 }
 
 #n-box1-1 {
-    float: right;
+    /* float: right; */
+    /* display: inline-block; */
     margin: 0 55px 0 0;
-    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 20px;
 }
 
 .shopping img {
@@ -53,7 +64,17 @@ html {
     margin-right: 30px;
 }
 
-.image {
+.n-box1 .logo {
+    margin: 0 auto;
+    display: inline-block;
+    width: 300px;
+}
+.logo img{
     width: 100%;
-    height: 80px;
+}
+
+.image img{
+    width: 100vw;
+    /* height:  */
+    background-size: cover;
 }
