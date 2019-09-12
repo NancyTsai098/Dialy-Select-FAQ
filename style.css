@@ -1,89 +1,109 @@
-* {
-    border: solid 0.02px rgba(225, 0, 0, 0.5);
-    font-family: 'Josefin Sans', sans-serif;
-    color: #1d4872;
-    font-weight: 600;
-    margin: 0;
-    padding: 0;
-}
-
-body,
-html {
-    height: 100%;
-    background-repeat: no-repeat;
-    width: 100vw;
-    background-size: cover;
-}
-
-.banner {
-    text-align: center;
-}
-
-
-/* 導覽列 */
-
-.navbar {
-    display: flex;
-    justify-content: center;
-}
-
-.navbar .box {
-    margin: auto;
-}
-
-.n-box1 {
-    height: 200px;
-    text-align: center;
-    position: relative;
-}
-
-#n-box1-1 {
-    /* float: right; */
-    /* display: inline-block; */
-    margin: 0 55px 0 0;
-    position: absolute;
-    right: 0;
-    top: 20px;
-}
-
-.shopping img {
-    width: 30px;
-    height: 30px;
-}
-
-.shopping {
-    margin-right: 30px;
-}
-
-.n-box1 .logo {
-    margin: 0 auto;
-    display: inline-block;
-    width: 300px;
-}
-
-.logo img {
-    width: 100%;
-}
-
-.image img {
-    width: 100vw;
-    /* height:  */
-    background-size: cover;
-}
-
-
-/* 頁尾 */
-
-footer {
-    background-color: #1d4872;
-    color: white;
-    /* 定位：固定 psf */
-    position: fixed;
-    /* 底部距離0 */
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    text-align: center;
-    /* 行高與高度相同：垂直置中，僅限一行內容 */
-    line-height: 60px;
-}
+    * {
+        border: solid 0.02px rgba(225, 0, 0, 0.5);
+        font-family: 'Josefin Sans', sans-serif;
+        color: #1d4872;
+        font-weight: 600;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body,
+    html {
+        height: 100%;
+        background-repeat: no-repeat;
+        width: 100vw;
+        background-size: cover;
+    }
+    
+    .banner {
+        text-align: center;
+    }
+    /* 導覽列 */
+    
+    .navbar {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .navbar .box {
+        margin: auto;
+    }
+    
+    .n-box1 {
+        height: 200px;
+        text-align: center;
+        position: relative;
+    }
+    
+    #n-box1-1 {
+        /* float: right; */
+        /* display: inline-block; */
+        margin: 0 55px 0 0;
+        position: absolute;
+        right: 0;
+        top: 20px;
+    }
+    
+    .shopping img {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .shopping {
+        margin-right: 30px;
+    }
+    
+    .n-box1 .logo {
+        margin: 0 auto;
+        display: inline-block;
+        width: 300px;
+    }
+    
+    .logo img {
+        width: 100%;
+    }
+    
+    .image img {
+        width: 100vw;
+        /* height:  */
+        background-size: cover;
+    }
+    /* 頁尾 */
+    
+    footer {
+        background-color: #1d4872;
+        color: white;
+        /* 定位：固定 psf */
+        position: fixed;
+        /* 底部距離0 */
+        bottom: 0;
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        /* 行高與高度相同：垂直置中，僅限一行內容 */
+        line-height: 30px;
+        font-size: 11px;
+    }
+    /* QnA */
+    
+    .QnAcontainer {
+        width: 600px;
+    }
+    
+    .QnAcontainer h1 {
+        font-size: 21px;
+        color: #555555;
+        font-weight: 500;
+    }
+    
+    .QnAcontainer p {
+        font-size: 12px;
+        font-weight: 400;
+        color: #555555;
+    }
+    
+    .QnAcontainer li {
+        font-size: 12px;
+        font-weight: 400;
+        color: #555555;
+    }
