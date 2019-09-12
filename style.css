@@ -1,7 +1,7 @@
 * {
     border: solid 0.02px rgba(225, 0, 0, 0.5);
     font-family: 'Josefin Sans', sans-serif;
-    color: #466d47;
+    color: #1d4872;
     font-weight: 600;
     margin: 0;
     padding: 0;
@@ -10,7 +10,6 @@
 body,
 html {
     height: 100%;
-    background-image: url(imgs/banner1.jpg);
     background-repeat: no-repeat;
     width: 100vw;
     background-size: cover;
@@ -76,7 +75,7 @@ html {
 /* 頁尾 */
 
 footer {
-    background-color: #466d47;
+    background-color: #1d4872;
     color: white;
     /* 定位：固定 psf */
     position: fixed;
