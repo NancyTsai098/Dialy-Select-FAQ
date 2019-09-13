@@ -88,6 +88,7 @@
     
     .QnAcontainer {
         width: 600px;
+        margin: 0 auto;
     }
     
     .QnAcontainer h1 {
