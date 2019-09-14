@@ -10,10 +10,20 @@
     body,
     html {
         height: 100%;
-        background-repeat: no-repeat;
         width: 100vw;
-        background-size: cover;
+        /* overflow: hidden; */
+        overflow-x: hidden;
+        overflow-y: auto;
     }
+    /* .bg {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        background-image: url(imgs/bg01.jpg);
+        filter: blur(2px);
+        background-repeat: no-repeat;
+        background-size: cover;
+    } */
     
     .banner {
         text-align: center;
@@ -23,6 +33,7 @@
     .navbar {
         display: flex;
         justify-content: center;
+        overflow-x: visible;
     }
     
     .navbar .box {
@@ -92,8 +103,7 @@
     }
     
     .QnAcontainer h1 {
-        font-size: 21px;
-        color: #555555;
+        font-size: 26px;
         font-weight: 500;
     }
     
@@ -101,10 +111,19 @@
         font-size: 12px;
         font-weight: 400;
         color: #555555;
+        line-height: 21px;
     }
     
     .QnAcontainer li {
         font-size: 12px;
         font-weight: 400;
         color: #555555;
+        line-height: 21px;
+        margin: 0 0 0 20px;
+    }
+    
+    .QnAcontainer summary {
+        color: #555555;
+        font-weight: 500;
+        margin: 10px 0;
     }
