@@ -1,5 +1,5 @@
     * {
-        border: solid 0.02px rgba(225, 0, 0, 0.5);
+        /* border: solid 0.02px rgba(225, 0, 0, 0.5); */
         font-family: 'Josefin Sans', sans-serif;
         color: #1d4872;
         font-weight: 600;
@@ -34,6 +34,7 @@
         display: flex;
         justify-content: center;
         overflow-x: visible;
+        margin: 60px 0;
     }
     
     .navbar .box {
@@ -41,7 +42,7 @@
     }
     
     .n-box1 {
-        height: 200px;
+        height: 100px;
         text-align: center;
         position: relative;
     }
@@ -67,7 +68,7 @@
     .n-box1 .logo {
         margin: 0 auto;
         display: inline-block;
-        width: 300px;
+        width: 230px;
     }
     
     .logo img {
